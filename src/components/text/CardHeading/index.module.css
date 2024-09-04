@@ -1,0 +1,7 @@
+.cardHeading {
+  font-family: var(--font-family-inside) !important;
+  color: var(--gray-700) !important;
+  font-size: var(--small-font-size) !important;
+  font-weight: 500 !important;
+  margin-bottom: 15px !important;
+}

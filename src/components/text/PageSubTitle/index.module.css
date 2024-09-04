@@ -1,0 +1,6 @@
+.pageSubTitle{
+    font-family: var(--font-family);
+    color: var(--base-text-color);
+    font-size: var(--large-font-size);
+    font-weight: var(--font-weight-normal);
+}

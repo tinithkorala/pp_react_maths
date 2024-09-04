@@ -1,0 +1,11 @@
+.step{
+    height: 12px;
+    width: 40%;
+    min-width: 120px;
+    border-radius: 30px;
+    background-color: var(--cola-blue-100);
+}
+
+.completed{
+    background-color: var(--ateneo-blue-200);
+}

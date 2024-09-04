@@ -1,0 +1,7 @@
+.sectionTitle {
+  font-family: var(--font-family-inside);
+  color: var(--base-text-color);
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}

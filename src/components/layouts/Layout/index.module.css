@@ -1,0 +1,8 @@
+.layout {
+  display: flex;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 25px 40px;
+}

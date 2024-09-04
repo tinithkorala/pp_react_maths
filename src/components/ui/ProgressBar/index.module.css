@@ -1,0 +1,17 @@
+.progress-text {
+  font-weight: 500;
+  font-family: var(--font-family-inside);
+  margin-bottom: 24px;
+}
+
+.progress-value-wrapper {
+  display: flex;
+  justify-content: CENTER;
+  align-items: center;
+}
+
+.progress-value {
+  font-weight: 500;
+  font-family: var(--font-family-inside);
+  margin-bottom: 12px;
+}

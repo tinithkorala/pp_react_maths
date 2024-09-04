@@ -1,0 +1,6 @@
+.pageTitle{
+    font-family: var(--font-family);
+    color: var(--base-text-color);
+    font-size: var(--larger-font-size);
+    font-weight: var(--font-weight-bold);
+}

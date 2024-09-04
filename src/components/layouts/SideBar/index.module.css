@@ -1,0 +1,25 @@
+.toolbar {
+  min-height: 64px; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 10px;
+  width: 110px;
+}
+
+.drawer {
+  width: var(--drawer-width-collapsed);
+  flex-shrink: 0;
+}
+
+.drawer-paper {
+  width: var(--drawer-width-collapsed);
+}
+
+#user-action-menu{
+  bottom: 50px
+  /* background-color: var(--ateneo-blue-500); */
+}

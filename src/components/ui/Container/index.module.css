@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  display: flex;
+  padding-top: 175px;
+  padding-left: 30px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-height: 720px;
+}
+
+.flex-row{
+  flex-direction: row;
+  align-items: normal;
+  justify-content: center;
+  gap: 69px;
+}
+
+.flex-column{
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1125px) {
+  .container {
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

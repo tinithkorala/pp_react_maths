@@ -1,0 +1,138 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  line-height: var(--line-height);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: var(--base-text-color);
+  font-size: var(--base-font-size);
+  font-family: var(--font-family);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+form {
+  width: 100%;
+}
+
+a {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--small-text-size);
+  color: var(--ateneo-blue-300);
+}
+
+label {
+  background-color: #fff;
+  padding: 0 5px;
+}
+
+.illustration {
+  object-fit: contain;
+  max-height: 720px;
+  width: 40%;
+  max-width: 600px;
+  min-width: 368px;
+}
+
+.content-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  text-align: left;
+  font-size: var(--base-font-size);
+  color: var(--base-text-color);
+  font-family: var(--font-family);
+  width: 680px;
+}
+
+.clickable:hover {
+  box-shadow: 3px 3px 10px 1px #3f4e60;
+}
+
+.clickable.selected {
+  /* box-shadow: var(--shadow-hover); */
+  border-style: inset;
+  border: 6px var(--ateneo-blue-300) solid;
+  border-radius: 30px;
+}
+
+.text-danger {
+  color: var(--color-danger) !important;
+}
+
+.text-success {
+  color: var(--color-success) !important;
+}
+
+.text-warning {
+  color: var(--color-warning) !important;
+}
+
+.text-button {
+  color: red !important;
+}
+
+.text-center{text-align: center !important;}
+.text-left{text-align: left !important;}
+.text-right{text-align: right !important;}
+
+@media screen and (max-width: 1125px) {
+  .illustration {
+    display: none;
+  }
+  .content-section {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .content-section {
+    gap: 20px;
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .content-section {
+    gap: 20px;
+    min-width: 300px;
+  }
+}

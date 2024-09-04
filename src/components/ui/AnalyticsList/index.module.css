@@ -1,0 +1,15 @@
+.card-list{
+    margin-bottom: 30px !important;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title{
+    margin-bottom: 30px;
+}
+.card-value{
+    font-size: var(--large-font-size) !important;
+    font-weight: var(--font-weight-bolder) !important;
+}

@@ -1,0 +1,7 @@
+.chart-name {
+  font-family: var(--font-family-inside) !important;
+  color: var(--gray-600) !important;
+  text-align: center;
+  margin: 5px 0 !important;
+  text-transform: uppercase;
+}

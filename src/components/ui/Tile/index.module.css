@@ -1,0 +1,32 @@
+.tile {
+  padding: 20px 25px 5px 25px;
+  margin-bottom: 15px;
+  border-radius: var(--border-radius) !important;
+}
+
+.icon {
+  font-weight: 500;
+  color: var(--light-text-color);
+  background-color: var(--ateneo-blue-200);
+  border-radius: var(--border-radius) !important;
+  padding: 5px;
+  height: 35px !important;
+  width: 35px !important;
+}
+
+.text,
+.value {
+  font-family: var(--font-family-inside) !important;
+}
+
+.text {
+  font-weight: 400 !important;
+  font-size: var(--small-font-size) !important;
+  text-transform: uppercase !important;
+}
+
+.value {
+  color: var(--gray-800) !important;
+  font-size: var(--larger-font-size) !important;
+  font-weight: 600;
+}
